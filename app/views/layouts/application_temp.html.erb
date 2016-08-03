@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SampleApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'application_temp', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application_temp', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
